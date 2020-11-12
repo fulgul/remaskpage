@@ -1,0 +1,40 @@
+body {
+  overflow-x: hidden;
+}
+
+#showcase {
+  grid-column: 1 /4;
+  grid-row: 2;
+  width: 100vw;
+  display: flex;
+}
+
+#showcase img {
+  max-width: 50vw;
+  object-fit: cover;
+}
+
+.textbox {
+  margin: 20px 0 20px 20px;
+}
+
+#promotion img {
+  max-width: 100vw;
+  object-fit: cover;
+}
+.textbox a{
+  text-decoration: none;
+}
+
+.textbox a:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0px;
+  transition: width 0.45s ease, background-color 0.45s ease;
+}
+
+.textbox a:hover::after {
+  width: 10.4%;
+  background: #31cdcd;
+}

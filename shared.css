@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Quicksand:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.html {
+  --light: #ffffff;
+  --ligtShadeGreen: #88d6b6;
+  --main: #31cdcd;
+  --darkShadeblue: #345771;
+  --dark: #000000;
+}
+
+.font-quicksand {
+  font-family: "Quicksand", serif;
+  font-size: 20pt;
+}
+.font-eb-garamond {
+  font-family: "EB Garamond", serif;
+  font-size: 18pt;
+}
