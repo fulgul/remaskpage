@@ -6,19 +6,19 @@
   box-sizing: border-box;
 }
 
-.html {
+:root {
   --light: #ffffff;
   --ligtShadeGreen: #88d6b6;
   --main: #31cdcd;
-  --darkShadeblue: #345771;
+  --darkShadeBlue: #345771;
   --dark: #000000;
 }
 
 .font-quicksand {
   font-family: "Quicksand", serif;
-  font-size: 20pt;
+  font-size: 22pt;
 }
 .font-eb-garamond {
   font-family: "EB Garamond", serif;
-  font-size: 18pt;
+  font-size: 20pt;
 }

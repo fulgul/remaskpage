@@ -4,12 +4,11 @@ header {
   flex-wrap: wrap;
   align-items: center;
   margin: 40px 0;
-  border-bottom: solid 4px var(--darkShadeblue);
 }
 
 .logo-container {
   flex-basis: 300px;
-  flex-grow: 0.5;
+  flex-grow: 0.4;
   flex-shrink: 0;
   margin-left: 50px;
 }
@@ -20,7 +19,6 @@ header {
 
 .logo-container img:hover {
   opacity: 0.8;
-  background-color: black;
 }
 
 nav {
