@@ -11,6 +11,7 @@ main {
 }
 
 .product{
+  width: 80%;
   padding-bottom: 25px;
   margin: auto;
 }
