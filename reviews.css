@@ -1,0 +1,43 @@
+
+main{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+}
+
+.checked {
+    color: orange;
+}
+
+.summary{
+    grid-column: 1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    height: fit-content;
+}
+
+h1{
+    font-size: calc(1.6vw + 10pt);
+    width: 100%;
+    height: fit-content;
+}
+
+.rating{
+    height: fit-content;
+}
+.progress-border{
+    width: 60%;
+    margin-top: 100px;
+}
+
+
+.progress{
+    height: 24px;
+    width: 20%;
+    background-color: chocolate;
+}
+
+img{
+    grid-column: 2;
+    width: 100%;
+}
