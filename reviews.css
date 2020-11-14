@@ -1,7 +1,12 @@
 
+body{
+    overflow-x: hidden;
+}
+
 main{
     display: grid;
     grid-template-columns: 3fr 7fr;
+    grid-template-rows: auto;
 }
 
 .checked {
@@ -12,8 +17,15 @@ main{
     grid-column: 1;
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
     height: fit-content;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto
 }
 
 h1{
@@ -24,20 +36,69 @@ h1{
 
 .rating{
     height: fit-content;
+    width: 100%;
+    margin: 5px 0 10px 0;
 }
-.progress-border{
-    width: 60%;
-    margin-top: 100px;
+.progress-container{
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
 }
 
+.progress-container h2{
+    margin-right: 10px;
+    font-size: 12pt;
+}
+
+.progress-border{
+    width: 40%;
+    background-color: lightgray;
+    border-radius: 4px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 1px black;
+}
 
 .progress{
     height: 24px;
-    width: 20%;
-    background-color: chocolate;
+    background-color:#FFA500;
+    border-radius: 4px;
+}
+#star5 div div{
+    width: 92%;
 }
 
-img{
+#star4 div div {
+    width: 4%;
+}
+
+#star3 div div, #star2 div div{
+    width: 1%;
+}
+
+#star1 div div{
+    width: 2%;
+}
+.review-card{
+    margin-top: 50px;
+    font-size: 16pt;
     grid-column: 2;
+
+}
+.review-card img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#most-helpful{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+#most-helpful p{
     width: 100%;
 }
