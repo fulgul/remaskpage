@@ -99,6 +99,27 @@ h1{
     height: fit-content;
 }
 
+#most-helpful img{
+    margin: 5px 0;
+}
+
 #most-helpful p{
     width: 100%;
+}
+
+@media screen and (max-width: 880px) {
+
+    main{
+        display: block;
+    }
+    .summary{
+        margin: 0 0 50px 50px;
+    }
+
+    .reviews{
+        margin-left: 50px;
+    }
+
+
+
 }

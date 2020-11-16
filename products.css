@@ -17,6 +17,11 @@ main {
   margin: auto;
 }
 
+.product-container{
+  margin-left: 10px;
+
+}
+
 
 #product1{
   grid-column: 1;
@@ -41,7 +46,7 @@ main {
   border: solid #434544 2px;
   background-color: #434544 ;
   width: 100%;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 hr:nth-of-type(2){
@@ -53,3 +58,19 @@ hr:nth-of-type(3){
   top: 0;
 }
 
+@media screen and (max-width: 880px) {
+  main{
+    display: block;
+  }
+
+  .line{
+    display: none;
+  }
+
+  .product-container{
+    margin: auto;
+    text-align: center;
+  }
+
+
+}
