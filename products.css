@@ -12,14 +12,26 @@ main {
 }
 
 .product{
-  width: 80%;
+  width: 60%;
   padding-bottom: 25px;
   margin: auto;
+  border: solid transparent 10px;
+  transition: all 0.275s ease;
+}
+
+.product:hover{
+  border: transparent solid 1px;
 }
 
 .product-container{
-  margin-left: 10px;
+  text-align: center;
+}
 
+.product-container p {
+  font-size: 28pt;
+  text-align: left;
+  margin-left: 100px;
+  vertical-align: baseline;
 }
 
 
@@ -36,6 +48,11 @@ main {
 #product3{
   grid-column: 3;
   grid-row: 1;
+}
+
+#product3 img{
+  margin-top: 20px;
+  margin-bottom: -20px;
 }
 
 .line{
@@ -70,6 +87,11 @@ hr:nth-of-type(3){
   .product-container{
     margin: auto;
     text-align: center;
+  }
+  .product-container p {
+    font-size: 22pt;
+    text-align: center;
+    margin-left: 0px;
   }
 
 
