@@ -8,7 +8,6 @@
         @import url("./header.css");
         @import url("./shared.css");
         @import url("./products.css");
-
     </style>
 </head>
 <body>
@@ -27,7 +26,7 @@
           <main class="font-quicksand">
             <div id="product1" class="product-container">
               <h1>Premium Quality Elephant-ear Mask</h1>
-              <img  class="product" src="./images/ezgif.com-gif-maker1.png" alt="">
+              <img onclick="document.getElementById('confirm').style.display = 'block'" class="product" src="./images/ezgif.com-gif-maker1.png" alt="">
               <p class="font-quicksand">$29.99</p>
               <div class="size-selection">
                 <label class="check-container">S
@@ -53,7 +52,7 @@
             </div>
             <div id="product2" class="product-container">
               <h1>Carbon Infused Filterer Mask </h1>
-              <img  class="product" src="./images/ezgif.com-gif-maker.png" alt="">
+              <img onclick="document.getElementById('confirm').style.display = 'block'" class="product" src="./images/ezgif.com-gif-maker.png" alt="">
               <p class="font-quicksand">$34.99</p>
               <div class="size-selection">
                 <label class="check-container">S
@@ -79,7 +78,7 @@
             </div>
             <div id="product3" class="product-container">
               <h1>Holy-Water Grown Lettuce Mask</h1>
-              <img class="product" src="./images/ezgif.com-gif-maker (9).jpg" alt="">
+              <img onclick="document.getElementById('confirm').style.display = 'block'" class="product" src="./images/ezgif.com-gif-maker (9).jpg" alt="">
               <p class="font-quicksand">$19.99</p>
               <div class="size-selection">
                 <label class="check-container">S
@@ -106,7 +105,7 @@
             <hr class="line"> 
             <div id="product4" class="product-container">
               <h1>Soft Cloth Face Cover</h1>
-              <img class="product" src="./images/ezgif.com-gif-maker (10).jpg" alt="">
+              <img onclick="document.getElementById('confirm').style.display = 'block'" class="product" src="./images/ezgif.com-gif-maker (10).jpg" alt="">
               <p class="font-quicksand">$6.99</p>
               <div class="size-selection">
                 <label class="check-container">S
@@ -132,7 +131,7 @@
             </div>
             <div id="product5" class="product-container">
               <h1>Military-graded Bullet Proof Face Mask </h1>
-              <img class="product" src="./images/ezgif.com-gif-maker (11).jpg" alt="">
+              <img onclick="document.getElementById('confirm').style.display = 'block'" class="product" src="./images/ezgif.com-gif-maker (11).jpg" alt="">
               <p class="font-quicksand">$59.99</p>
               <div class="size-selection">
                 <label class="check-container">S
@@ -158,7 +157,7 @@
             </div>
             <div id="product6" class="product-container">
               <h1>Premium Quality Elephant Ear Mask</h1>
-              <img class="product" src="./images/ezgif.com-gif-maker (12).jpg" alt="">
+              <img onclick="document.getElementById('confirm').style.display = 'block'" class="product" src="./images/ezgif.com-gif-maker (12).jpg" alt="">
               <p class="font-quicksand">$29.99</p>
               <div class="size-selection">
                 <label class="check-container">S
@@ -185,7 +184,7 @@
             <hr class="line">
             <div id="product7" class="product-container">
               <h1>Premium Quality Elephant Ear Mask</h1>
-              <img class="product" src="./images/ezgif.com-gif-maker (13).jpg" alt="">
+              <img onclick="document.getElementById('confirm').style.display = 'block'" class="product" src="./images/ezgif.com-gif-maker (13).jpg" alt="">
               <p class="font-quicksand">$29.99</p>
               <div class="size-selection">
                 <label class="check-container">S
@@ -211,7 +210,7 @@
             </div>
             <div id="product8" class="product-container">
               <h1>Premium Quality Elephant Ear Mask</h1>
-              <img class="product" src="./images/ezgif.com-gif-maker.jpg" alt="">
+              <img onclick="document.getElementById('confirm').style.display = 'block'" class="product" src="./images/ezgif.com-gif-maker.jpg" alt="">
               <p class="font-quicksand">$29.99</p>
               <div class="size-selection">
                 <label class="check-container">S
@@ -237,7 +236,7 @@
             </div>
             <div id="product9" class="product-container">
               <h1>Premium Quality Elephant Ear Mask</h1>
-              <img class="product" src="./images/ezgif.com-gif-maker (14).jpg" alt="">
+              <img onclick="document.getElementById('confirm').style.display = 'block'" class="product" src="./images/ezgif.com-gif-maker (14).jpg" alt="">
               <p class="font-quicksand">$29.99</p>
               <div class="size-selection">
                 <label class="check-container">S
@@ -262,6 +261,11 @@
               </div>
             </div>
             <hr class="line">
+            <div id="confirm">
+              <h1>Avaliable for Purchase</h1>
+              <h2>Limited Stock Left</h2>
+              <button onclick="document.getElementById('confirm').style.display = 'none'"></button>
+            </div>
           </main>
 </body>
 </html>
