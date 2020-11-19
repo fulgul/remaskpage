@@ -14,7 +14,7 @@ main {
 .product{
   width: 60%;
   padding-bottom: 25px;
-  margin: auto;
+  margin: auto 50% auto 50%;
   border: solid transparent 10px;
   transition: all 0.275s ease;
 }
@@ -25,13 +25,85 @@ main {
 
 .product-container{
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 .product-container p {
   font-size: 28pt;
-  text-align: left;
-  margin-left: 100px;
-  vertical-align: baseline;
+  height: fit-content;
+  margin-right: 10px;
+  font-weight: 500;
+  align-self: flex-end;
+
+}
+
+.size-selection{
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0.4;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 0.5em;
+}
+
+.check-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.check-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.check-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.check-container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.check-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.check-container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
 }
 
 
