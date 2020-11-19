@@ -14,7 +14,7 @@ main {
 .product{
   width: 60%;
   padding-bottom: 25px;
-  margin: auto 50% auto 50%;
+  margin: 10% 20% 10% 20%;
   border: solid transparent 10px;
   transition: all 0.275s ease;
 }
