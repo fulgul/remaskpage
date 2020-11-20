@@ -7,7 +7,6 @@ main {
   position: relative;
   grid-template-columns: repeat(3) 1fr;
   grid-template-rows: repeat(4) 1fr;
-  grid-row-gap: 25px;
   margin-top: 25px;
 }
 
@@ -22,15 +21,13 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  justify-content: center;
-  flex-wrap: wrap;
 
 }
 
 #confirm h1{
   width: 100%;
   height: fit-content;  
-  margin-top: 10px;   
+  margin-top: 6px;   
   margin-bottom: 10px;
 }
 
@@ -41,8 +38,8 @@ main {
 
 button::before{
   content: "x";
-  color: #000;
   font-size: 40px;
+  
 }
 
 button{
@@ -51,6 +48,9 @@ button{
   right: 0;
   width: 50px;
   height: 50px;
+  border-style: none;
+  border-image: none;
+  background-color: rgba(230, 230, 230, 0);
 }
 
 .product{
@@ -66,11 +66,14 @@ button{
 }
 
 .product-container{
+  position: relative;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
+  border-bottom: solid 3px black;
+  padding: -50px;
+  margin: 50px;
 }
 
 .product-container p {
@@ -79,7 +82,16 @@ button{
   margin-right: 10px;
   font-weight: 500;
   align-self: flex-end;
+}
 
+.product-container h2{
+  display: none;
+  position: absolute;
+  top: 80%;
+}
+
+.product-container img:hover ~ h2, .product-container h2:hover{
+  display: block;
 }
 
 .size-selection{
@@ -126,7 +138,7 @@ button{
 }
 
 .check-container input:checked ~ .checkmark {
-  background-color: #2196F3;
+  background-color: gray;
 }
 
 .checkmark:after {
@@ -152,6 +164,7 @@ button{
 #product1{
   grid-column: 1;
   grid-row: 1;
+  width: auto;
 }
 
 #product2{
@@ -170,6 +183,7 @@ button{
 }
 
 .line{
+  display: none;
   position: absolute;
   grid-column: 1;
   grid-row: 2;
