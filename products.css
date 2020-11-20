@@ -13,19 +13,24 @@ main {
 
 #confirm{
   position: fixed;
-  width: 60%;
-  height: 80%;
-  background-color: #345771;
+  width: 50%;
+  height: 40%;
+  background-color: #e6e6e6;
   display: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
 }
 
 #confirm h1{
-  margin-top: 20px;
+  width: 100%;          
 }
+
 
 button::before{
   content: "x";
