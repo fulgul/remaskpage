@@ -13,22 +13,29 @@ main {
 
 #confirm{
   position: fixed;
-  width: 50%;
-  height: 40%;
-  background-color: #e6e6e6;
+  width: 350px;
+  height: 350px;
+  background-color: rgb(230, 230, 230); /* Fallback color */
+  background-color: rgba(230, 230, 230, 0.8);
   display: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 
 }
 
 #confirm h1{
-  width: 100%;          
+  width: 100%;
+  height: fit-content;  
+  margin-top: 10px;   
+  margin-bottom: 10px;
+}
+
+#confirm h2{
+  height: fit-content;
 }
 
 
