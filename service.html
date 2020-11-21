@@ -28,25 +28,32 @@
 
       <main class="font-quicksand">
           <img src="./images/ezgif.com-gif-maker (15).jpg" alt="">
-                <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="contact"><input type="hidden" name="utf8" value="✓">
-            
+                <form id="contact_form" action="./index.html" class="contact-form"><input type="hidden" name="form_type" value="contact"><input type="hidden" name="utf8" value="✓">
+                    <div class="left-col">
+                    <h2>Contact</h2>
                   <div class="contact-input">
-                      <input type="text" name="contact[name]" id="ContactFormName" placeholder="Full Name" value="">
+                      <input type="text"  placeholder="Full Name" value="">
                   </div>
                   <div class="contact-input">
-                      <input type="email" name="contact[email]" id="ContactFormEmail" placeholder="Email Address" value="" spellcheck="false" autocomplete="off" autocapitalize="off">
+                      <input type="email" placeholder="Email Address" value="" spellcheck="false" autocomplete="off" autocapitalize="off">
                   </div>
                   <div class="contact-input">
-                      <input type="tel" name="contact[phone]" id="ContactFormPhone" placeholder="Phone Number" value="" pattern="[0-9\-]*">
+                      <input type="tel" placeholder="Phone Number" value="" pattern="[0-9\-]*">
                   </div>
                   <div class="contact-input">
-                      <textarea rows="10" name="contact[body]" id="ContactFormMessage" placeholder="Enter Message"></textarea>
+                      <textarea rows="10" placeholder="Enter Message"></textarea>
                   </div>
                   <div class="contact-input">
-                          <button type="submit" class="theme-button">
+                          <button>
                               <span>SEND</span>
                           </button>
                   </div>
+                </div>
+                <div class="right-col">
+
+                </div>
+
+
     
                 </form>
       </main>

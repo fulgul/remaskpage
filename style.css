@@ -19,62 +19,8 @@ body {
   
 }
 
-h1{
-  z-index: 1000;
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  transform: translate(-50%);
-  font-size: 40pt;
+#info{
+  width: 50%;
+  margin: 0 1.25vw;
 }
 
-.textbox {
-  margin: 20px 0 20px 20px;
-  font-size: 20pt;
-}
-
-#promotion img {
-  max-width: 100vw;
-  object-fit: cover;
-}
-
-.textbox{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 24pt;
-}
-
-.textbox h2{
-  font-size: 28pt;
-}
-.textbox a{
-  text-decoration: none;
-  position: relative;
-  overflow-x: hidden;
-}
-
-.textbox span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  transform: translateX(-100%);
-  transition: transform 275ms ease;
-}
-
-.textbox a:hover span{
-  transform: translateX(0);
-}
-
-.textbox span::before { 
-  display: inline-block;
-  content: attr(data-content);
-  color: #88d6b6;
-  transform: translateX(100%);
-  transition: transform 275ms ease;
-}
-
-.textbox a:hover span::before {
-  transform: translateX(0);
-}

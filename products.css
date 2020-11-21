@@ -214,6 +214,7 @@ hr:nth-of-type(3){
   .product-container{
     margin: auto;
     text-align: center;
+    padding-top: 20px;
   }
   .product-container p {
     font-size: 22pt;
