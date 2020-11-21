@@ -1,0 +1,35 @@
+html, body, main{
+    height: 100%;
+}
+
+img{
+    width: 100%;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.contact-input{
+    width: 50%;
+    margin-top: 10px;
+}
+
+.contact-input input{
+    border: none;
+    border-style: none;
+    border-bottom: 1px solid #2e2e2e;
+    width: 50%;
+    padding: 10px 0;
+    letter-spacing: 1px;
+}
+
+input[type="text" i]{
+    padding: 1px 2px;
+}

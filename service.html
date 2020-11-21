@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("./header.css");
+        @import url("./shared.css");
+        @import url("./service.css");
+    </style>
+</head>
+<body>
+    <header class="font-quicksand">
+        <div class="logo-container">
+          <a href="./index.html"
+            ><img src="./images/remask1.png" alt="Remask logo" />
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="./products.html"><span data-content="All Products" aria-hidden="true"></span>All Products</a></li>
+            <li><a href="./reviews.html"><span data-content="Reviews" aria-hidden="true"></span>Reviews</a></li>
+            <li><a href="#"><span data-content="Customer Service" aria-hidden="true"></span>Customer Service</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="font-quicksand">
+          <img src="./images/ezgif.com-gif-maker (15).jpg" alt="">
+                <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="contact"><input type="hidden" name="utf8" value="✓">
+            
+                  <div class="contact-input">
+                      <input type="text" name="contact[name]" id="ContactFormName" placeholder="Full Name" value="">
+                  </div>
+                  <div class="contact-input">
+                      <input type="email" name="contact[email]" id="ContactFormEmail" placeholder="Email Address" value="" spellcheck="false" autocomplete="off" autocapitalize="off">
+                  </div>
+                  <div class="contact-input">
+                      <input type="tel" name="contact[phone]" id="ContactFormPhone" placeholder="Phone Number" value="" pattern="[0-9\-]*">
+                  </div>
+                  <div class="contact-input">
+                      <textarea rows="10" name="contact[body]" id="ContactFormMessage" placeholder="Enter Message"></textarea>
+                  </div>
+                  <div class="contact-input">
+                          <button type="submit" class="theme-button">
+                              <span>SEND</span>
+                          </button>
+                  </div>
+    
+                </form>
+      </main>
+</body>
+</html>

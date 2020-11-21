@@ -75,6 +75,23 @@ nav a:hover span::before {
 }
 
 
+footer{
+  padding-top: 40px;
+  font-size: 20pt;
+  margin-bottom: 50px;
+}
+
+.list{
+  margin-left: 20px;
+  list-style: none;
+}
+
+.list li{
+  font-size: 0.8em;
+}
+
+
+
 @media screen and (max-width: 880px) {
   header {
     margin-bottom: 30px;
