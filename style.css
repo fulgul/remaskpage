@@ -19,8 +19,21 @@ body {
   
 }
 
+#info-container{
+  display: flex;
+}
+
+#info-container img{
+  width: 47.5vw;
+  margin:-8% 2.5vw;
+
+
+}
+
 #info{
   width: 50%;
   margin: 0 1.25vw;
 }
+
+
 
