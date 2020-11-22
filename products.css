@@ -86,7 +86,7 @@ button{
 .product-container h2{
   display: none;
   position: absolute;
-  top: 60%;
+  top: 80%;
 }
 
 .product-container img:hover ~ h2, .product-container h2:hover{
@@ -200,6 +200,12 @@ hr:nth-of-type(2){
 hr:nth-of-type(3){
   grid-row: 4;
   top: 0;
+}
+
+@media screen and (max-width: 1350px) {
+  .product-container h2{
+    top: 60%;
+  }
 }
 
 @media screen and (max-width: 880px) {
