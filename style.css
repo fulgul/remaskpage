@@ -23,14 +23,12 @@ body {
   display: flex;
   justify-content: space-around;
   width: 100vw;
-  grid-column: 1 /4;
-  grid-row: 3;
+  height: 10%;
+  font-size: 18px;
 }
 
 #info-container img{
   width: 47.5vw;
-  margin-top: -6.5%;
-  clip-path: inset(9% 0 46% 0);
   object-fit: cover;
   
 
@@ -39,6 +37,7 @@ body {
 
 #info{
   width: 47.5vw;
+  height: fit-content;
 }
 
 #info p{

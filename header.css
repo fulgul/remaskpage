@@ -4,8 +4,8 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  margin: 25px -40px 0 -10px;
-  padding: 15px 40px 15px 10px;
+  margin: 25px -10px 0 -10px;
+  padding: 15px 0 15px 0;
   font-size: 22pt;
   border: 5px solid;
   border-image-slice: 1;
@@ -78,16 +78,76 @@ nav a:hover span::before {
 footer{
   padding-top: 40px;
   font-size: 20pt;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
 }
 
 .list{
   margin-left: 1.25vw;
   list-style: none;
+  margin-bottom: 15px;
 }
 
 .list li{
   font-size: 0.8em;
+}
+
+.copyright{
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.copyright p{
+  margin: 5px 0;
+}
+
+.icon{
+  width: 45px;
+  height: 30px;
+  fill: #fff;
+  overflow: hidden;
+}
+
+.payment-providers{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: fit-content;
+  justify-content: flex-start;
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  margin-left: 1.25vw;
+  text-align: left;
+}
+
+.payment-providers h2{
+  font-size: 0.8em;
+}
+
+.payment-icons{
+  display: flex;
+}
+
+.payment-icon{
+  margin-right: 5px;
+}
+
+footer p{
+  font-size: 0.5em;
+  text-align: center;
+  margin-left: 1.25vw;
+}
+
+.flag{
+  width: 20px;
+  height: 12.5px;
 }
 
 
@@ -107,5 +167,13 @@ footer{
   }
   nav ul {
     justify-content: center;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+  footer{
+    font-size: 14pt;
   }
 }
