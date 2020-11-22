@@ -44,5 +44,13 @@ body {
   margin-top: 20px;
 }
 
+@media screen and (max-width: 750px) {
+  #info h1{
+    font-size: 20px;
+  }
 
-
+  #info p{
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}
