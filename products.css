@@ -86,7 +86,7 @@ button{
 .product-container h2{
   display: none;
   position: absolute;
-  top: 80%;
+  top: 60%;
 }
 
 .product-container img:hover ~ h2, .product-container h2:hover{
